@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+security:
+  jwt:
+    secret-key: rIIdcRkPQXdNGjV0ct2wFFl3onEWbqOOS2FtZWvpl5V85hKmnyU953q_EOmUr6px
+    access-expiration-time: 30000
+    refresh-expiration-time: 60000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
