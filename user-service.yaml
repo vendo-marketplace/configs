@@ -1,5 +1,5 @@
 server:
-  port: 8020
+  port: ${server.ports.user-service}
 
 spring:
   data:
@@ -7,7 +7,7 @@ spring:
       username: root
       password: secret
       database: mydatabase
-      host: localhost
+      host: ${server.host}
       port: 27017
 
 security:
@@ -19,7 +19,7 @@ security:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8030/eureka/
+      defaultZone: http://${server.host}:${server.ports.registry-service}/eureka/
 
 management:
   tracing:

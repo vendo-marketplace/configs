@@ -1,0 +1,7 @@
+server:
+  host: localhost
+  ports:
+    config-server: 8010
+    registry-service: 8020
+    api-gateway: 8030
+    user-service: 8040
