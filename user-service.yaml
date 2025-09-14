@@ -4,13 +4,17 @@ server:
 spring:
   data:
     mongodb:
-      uri: "mongodb://root:secret@localhost:27017/mydatabase?authSource=admin"
+      username: root
+      password: secret
+      database: mydatabase
+      host: localhost
+      port: 27017
 
 security:
   jwt:
     secret-key: rIIdcRkPQXdNGjV0ct2wFFl3onEWbqOOS2FtZWvpl5V85hKmnyU953q_EOmUr6px
-    access-expiration-time: 30000
-    refresh-expiration-time: 60000
+    access-expiration-time: 60000
+    refresh-expiration-time: 120000
 
 eureka:
   client:
