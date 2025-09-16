@@ -4,7 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://root:password@${server.host}:27017/mydatabase?authSource=admin
+      uri: mongodb://root:password@localhost:27017/mydatabase?authSource=admin
 
 security:
   jwt:
