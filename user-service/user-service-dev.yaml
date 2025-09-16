@@ -4,11 +4,7 @@ server:
 spring:
   data:
     mongodb:
-      username: root
-      password: secret
-      database: mydatabase
-      host: ${server.host}
-      port: 27017
+      uri: mongodb://root:password@${server.host}:27017/mydatabase?authSource=admin
 
 security:
   jwt:
