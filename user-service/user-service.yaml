@@ -1,11 +1,6 @@
 server:
   port: ${server.ports.user-service}
 
-spring:
-  data:
-    mongodb:
-      uri: mongodb://root:password@localhost:27017/mydatabase?authSource=admin
-
 security:
   jwt:
     secret-key: rIIdcRkPQXdNGjV0ct2wFFl3onEWbqOOS2FtZWvpl5V85hKmnyU953q_EOmUr6px
