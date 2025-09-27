@@ -1,5 +1,5 @@
 server:
-  port: ${server.ports.user-service}
+  port: ${server.ports.product-service}
 
 security:
   jwt:
