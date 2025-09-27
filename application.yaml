@@ -5,3 +5,4 @@ server:
     registry-service: 8020
     api-gateway: 8030
     user-service: 8040
+    product-service: 8050

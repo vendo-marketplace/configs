@@ -1,0 +1,16 @@
+server:
+  port: ${server.ports.user-service}
+
+security:
+  jwt:
+    secret-key: rIIdcRkPQXdNGjV0ct2wFFl3onEWbqOOS2FtZWvpl5V85hKmnyU953q_EOmUr6px
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${server.host}:${server.ports.registry-service}/eureka/
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
