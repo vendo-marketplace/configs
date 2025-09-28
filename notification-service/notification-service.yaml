@@ -1,0 +1,25 @@
+server:
+  port: ${server.ports.product-service}
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: "vendo.marketplace.real@gmail.com"
+    password: "qivlskruhrwqizxy"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${server.host}:${server.ports.registry-service}/eureka/
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0

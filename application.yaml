@@ -6,3 +6,4 @@ server:
     api-gateway: 8030
     user-service: 8040
     product-service: 8050
+    notification-service: 8060
