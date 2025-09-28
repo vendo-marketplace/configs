@@ -1,5 +1,5 @@
 server:
-  port: ${server.ports.product-service}
+  port: ${server.ports.notification-service}
 
 spring:
   mail:
