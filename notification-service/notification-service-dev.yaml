@@ -6,9 +6,12 @@ spring:
     password: "qivlskruhrwqizxy"
     properties:
       mail:
+        transport:
+          protocol: smtp
         smtp:
           auth: true
           starttls:
             enable: true
+        debug: true
 message:
   from: "vendo.marketplace.real@gmail.com"
