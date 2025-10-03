@@ -10,3 +10,12 @@ management:
   tracing:
     sampling:
       probability: 1.0
+
+redis:
+  reset-password:
+    token:
+      ttl: 600
+
+mailer:
+  message:
+    from: "vendo.marketplace.real@gmail.com"
