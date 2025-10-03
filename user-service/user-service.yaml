@@ -12,6 +12,11 @@ eureka:
     serviceUrl:
       defaultZone: http://${server.host}:${server.ports.registry-service}/eureka/
 
+redis:
+  reset-password:
+    token:
+      ttl: 600
+
 management:
   tracing:
     sampling:

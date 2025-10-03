@@ -2,3 +2,6 @@ spring:
   data:
     mongodb:
       uri: mongodb://root:secret@localhost:27017/mydatabase?authSource=admin
+
+  kafka:
+    port: 9092
