@@ -12,6 +12,5 @@ spring:
           auth: true
           starttls:
             enable: true
-        debug: true
 message:
   from: "vendo.marketplace.real@gmail.com"
