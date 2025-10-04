@@ -1,5 +1,6 @@
 server:
-  port: ${server.ports.product-service}
+  port: 8050
+  host: localhost
 
 security:
   jwt:

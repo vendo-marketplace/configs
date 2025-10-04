@@ -1,5 +1,6 @@
 server:
-  port: ${server.ports.registry-service}
+  port: 8020
+  host: localhost
 
 eureka:
   instance:

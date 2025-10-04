@@ -1,6 +1,6 @@
 server:
-  port: ${server.ports.user-service}
-  host: ${server.host}
+  port: 8040
+  host: localhost
 
 security:
   jwt:

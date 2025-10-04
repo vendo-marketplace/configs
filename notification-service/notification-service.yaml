@@ -1,5 +1,6 @@
 server:
-  port: ${server.ports.notification-service}
+  port: 8060
+  host: localhost
 
 eureka:
   client:
