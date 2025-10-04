@@ -1,5 +1,6 @@
 server:
   port: ${server.ports.user-service}
+  host: ${server.host}
 
 security:
   jwt:
