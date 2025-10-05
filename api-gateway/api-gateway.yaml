@@ -1,6 +1,5 @@
 server:
   port: 8030
-  host: localhost
 
 eureka:
   client:

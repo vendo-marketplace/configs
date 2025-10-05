@@ -1,10 +1,9 @@
 server:
-  port: 8020
-  host: localhost
+  port: ${services.registry-service.port}
 
 eureka:
   instance:
-    hostname: ${server.host}
+    hostname: ${services.registry-service.host}
   client:
     register-with-eureka: false
     fetch-registry: false

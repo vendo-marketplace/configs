@@ -1,6 +1,5 @@
 server:
   port: 8040
-  host: localhost
 
 security:
   jwt:
