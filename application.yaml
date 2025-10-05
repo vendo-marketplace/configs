@@ -1,0 +1,4 @@
+services:
+  registry-service:
+    port: 8020
+    host: localhost
