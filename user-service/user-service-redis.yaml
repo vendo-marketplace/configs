@@ -1,4 +1,4 @@
-redis:
+redis-namespaces:
   reset-password:
     prefixes:
       email-prefix: "reset-password:email:"
