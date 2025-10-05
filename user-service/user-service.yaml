@@ -13,6 +13,10 @@ eureka:
     serviceUrl:
       defaultZone: http://${services.registry-service.host}:${services.registry-service.port}/eureka/
 
+kafka:
+  port: 9092
+  host: localhost
+
 management:
   tracing:
     sampling:
