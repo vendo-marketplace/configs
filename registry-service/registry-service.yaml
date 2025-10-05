@@ -1,5 +1,6 @@
 server:
   port: ${services.registry-service.port}
+  host: ${services.registry-service.host}
 
 eureka:
   instance:
