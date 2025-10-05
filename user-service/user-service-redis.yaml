@@ -3,5 +3,4 @@ redis:
     prefixes:
       email-prefix: "reset-password:email:"
       token-prefix: "reset-password:token:"
-    token:
-      ttl: 600
+    ttl: 600
