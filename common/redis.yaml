@@ -1,5 +1,6 @@
-reset-password:
-  prefixes:
-    email-prefix: "reset-password:email:"
-    token-prefix: "reset-password:token:"
-  ttl: 600
+redis:
+  reset-password:
+    prefixes:
+      email-prefix: "reset-password:email:"
+      token-prefix: "reset-password:token:"
+    ttl: 600
