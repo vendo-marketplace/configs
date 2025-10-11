@@ -9,6 +9,9 @@ kafka:
   host: localhost
 
 services:
+  api-gateway:
+    port: 8030
+    host: localhost
   registry-service:
     port: 8020
     host: localhost

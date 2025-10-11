@@ -1,6 +1,6 @@
 server:
-  port: 8030
-  host: localhost
+  port: ${services.api-gateway.port}
+  host: ${services.api-gateway.host}
 
 eureka:
   client:
