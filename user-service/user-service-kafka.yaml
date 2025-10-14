@@ -1,7 +1,7 @@
 kafka:
   events:
-    password-recovery-email-notification-event:
-      topic: "PASSWORD_RECOVERY_EMAIL_NOTIFICATION_TOPIC"
-      groupId: "password_recovery_email_notification_group"
+    password-recovery-event:
+      topic: "PASSWORD_RECOVERY_TOPIC"
+      groupId: "password_recovery_group"
       properties:
         auto-offset-reset: "latest"
