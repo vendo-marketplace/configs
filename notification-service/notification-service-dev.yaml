@@ -4,6 +4,7 @@ spring:
     port: 587
     username: "vendo.marketplace.real@gmail.com"
     password: "qivlskruhrwqizxy"
+    from: "vendo.marketplace.real@gmail.com"
     properties:
       mail:
         transport:
