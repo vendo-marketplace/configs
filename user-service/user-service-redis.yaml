@@ -1,7 +1,7 @@
 redis:
-  reset-password:
+  password-recovery:
     prefixes:
-      email-prefix: "reset-password:email:"
-      otp-prefix: "reset-password:otp:"
+      email-prefix: "password-recovery:email:"
+      otp-prefix: "password-recovery:otp:"
       attempts-prefix: "password-recovery:attempts:"
     ttl: 600
