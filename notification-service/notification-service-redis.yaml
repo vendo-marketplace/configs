@@ -1,6 +1,8 @@
 redis:
   password-recovery:
-    prefixes:
-      email-prefix: "password-recovery:email:"
-      otp-prefix: "password-recovery:otp:"
-    ttl: 600
+    email:
+      prefix: "password-recovery:email:"
+      ttl: 600
+    otp:
+      prefix: "password-recovery:otp:"
+      ttl: 600
