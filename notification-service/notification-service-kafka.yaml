@@ -5,3 +5,8 @@ kafka:
       groupId: "password_recovery_group"
       properties:
         auto-offset-reset: "latest"
+    email-verification-event:
+      topic: "EMAIL_VERIFICATION_TOPIC"
+      groupId: "email_verification_froup"
+      properties:
+        auto-offset-reset: "latest"

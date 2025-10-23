@@ -9,3 +9,13 @@ redis:
     attempts:
       prefix: "password-recovery:attempts:"
       ttl: 3600
+  email-verification:
+    email:
+      prefix: "email-verification:email"
+      ttl: 600
+    otp:
+      prefix: "email-verification:otp"
+      ttl: 600
+    attempts:
+      prefix: "email-verification:attempts"
+      ttl: 600
