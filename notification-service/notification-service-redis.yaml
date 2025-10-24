@@ -8,8 +8,8 @@ redis:
       ttl: 600
   email-verification:
     email:
-      prefix: "email-verification:email"
+      prefix: "email-verification:email:"
       ttl: 600
     otp:
-      prefix: "email-verification:otp"
+      prefix: "email-verification:otp:"
       ttl: 600
