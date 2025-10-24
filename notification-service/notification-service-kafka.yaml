@@ -7,6 +7,6 @@ kafka:
         auto-offset-reset: "latest"
     email-verification-event:
       topic: "EMAIL_VERIFICATION_TOPIC"
-      groupId: "email_verification_froup"
+      groupId: "email_verification_group"
       properties:
         auto-offset-reset: "latest"
